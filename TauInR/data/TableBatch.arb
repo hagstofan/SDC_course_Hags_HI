@@ -1,0 +1,8 @@
+<OPENTABLEDATA>	"RegionSizeVar2.tab"
+<OPENMETADATA>	"RegionSizeVar2.rda"
+<SPECIFYTABLE>  "Size""Region"|"Var2"||
+<SAFETYRULE>	P(10,1)|FREQ(3,20)|MIS(1)
+<READTABLE>
+<SUPPRESS>		MOD(1,5,1,1,1)
+<WRITETABLE>	(1,3,AS+QU+,"RegionSizeVar2Safe.txt")
+<GOINTERACTIVE>
